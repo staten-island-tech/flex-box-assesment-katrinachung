@@ -1,2 +1,34 @@
-@import "./fonts";
-@import ""
+@import "./_variables.scss";
+@import "./_fonts.scss";
+@import "./_header.scss";
+
+html {
+    font-size: 70%;
+}
+body {
+    background-color: #78909c;
+    height: 62.5%;
+}
+h1 {
+    color: #4a626d;
+}
+.flex-parent {
+    background-color: #be9c91;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 1000%;
+}
+.flex-child {
+    background-color: #c85a54;
+    margin: 30px;
+    height: 50vh;
+    color: black;
+}
+#flex-grow-1 {
+    flex-grow: 1;
+}
+#flex-grow-2 {
+    flex-grow: 2;
+}
