@@ -33,7 +33,7 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 1000%;
+  font-size: 1700%;
 }
 
 .flex-child {
@@ -41,6 +41,8 @@ h1 {
   margin: 30px;
   height: 50vh;
   color: #ff867f;
+  width: 750;
+  text-align: center;
 }
 
 #flex-grow-1 {
