@@ -29,10 +29,10 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   font-size: 1700%;
 }
 
@@ -41,8 +41,8 @@ h1 {
   margin: 30px;
   height: 50vh;
   color: #ff867f;
-  width: 750;
-  text-align: center;
+  text-align: justify;
+  width: 800;
 }
 
 #flex-grow-1 {
@@ -77,5 +77,13 @@ h1 {
   margin: 3vh;
   height: 19vh;
   width: 34vh;
+}
+
+.flex-baby {
+  background-color: lightsteelblue;
+  margin: 60px;
+  height: 20vh;
+  color: royalblue;
+  width: 500;
 }
 /*# sourceMappingURL=style.css.map */
