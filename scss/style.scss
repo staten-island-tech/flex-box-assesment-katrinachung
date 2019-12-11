@@ -17,7 +17,7 @@ h1 {
     height: 60vh;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 1700%;
 }
 .flex-child {
@@ -25,8 +25,9 @@ h1 {
     margin: 30px;
     height: 50vh;
     color: #ff867f;
-    width: 750;
-    text-align: center;
+    text-align: justify;
+    width: 800;
+
 }
 #flex-grow-1 {
     flex-grow: 1;
@@ -44,4 +45,11 @@ h1 {
     margin: 3vh;
     height: 19vh;
     width: 34vh;
+}
+.flex-baby {
+    background-color: lightsteelblue;
+    margin: 60px;
+    height:20vh;
+    color: royalblue;
+    width: 500;
 }
