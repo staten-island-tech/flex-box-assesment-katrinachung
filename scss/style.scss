@@ -14,7 +14,7 @@ h1 {
 }
 .flex-parent {
     background-color: #be9c91;
-    height: 60vh;
+    height: 50vh;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -23,11 +23,10 @@ h1 {
 .flex-child {
     background-color: #c85a54;
     margin: 30px;
-    height: 50vh;
+    height: 43vh;
     color: #ff867f;
     text-align: justify;
     width: 800;
-
 }
 #flex-grow-1 {
     flex-grow: 1;
@@ -47,9 +46,10 @@ h1 {
     width: 34vh;
 }
 .flex-baby {
-    background-color: lightsteelblue;
-    margin: 60px;
-    height:20vh;
-    color: royalblue;
+    background-color: #afc2cb;
+    margin: 50px;
+    height: 11vh;
+    color: #8aacc8;
     width: 500;
+    font-size: 30;
 }
