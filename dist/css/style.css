@@ -20,6 +20,11 @@ h1 {
   color: #4a626d;
 }
 
+.flex-parent-parent {
+  background-color: #b1bfca;
+  height: 100vh;
+}
+
 .flex-parent {
   background-color: #be9c91;
   height: 50vh;
@@ -80,7 +85,7 @@ h1 {
 }
 
 .flex-baby {
-  background-color: #afc2cb;
+  background-color: rgba(138, 113, 113, 0.37);
   margin: 50px;
   height: 15vh;
   color: #8aacc8;
