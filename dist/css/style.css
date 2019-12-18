@@ -22,31 +22,33 @@ h1 {
 
 .flex-parent-parent {
   background-color: #b1bfca;
-  height: 100vh;
+  height: 78vh;
 }
 
 .flex-parent {
   background-color: #be9c91;
-  height: 50vh;
+  height: 24vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  font-size: 1700%;
+  font-size: 1200%;
+  margin: 2vh;
+  text-align: justify;
 }
 
 .flex-child {
   background-color: #c85a54;
   margin: 30px;
-  height: 43vh;
+  height: 17vh;
   color: #ff867f;
-  text-align: justify;
+  text-align: center;
   width: 800;
 }
 
@@ -81,7 +83,7 @@ h1 {
           align-items: center;
   margin: 3vh;
   height: 19vh;
-  width: 34vh;
+  width: 33vh;
 }
 
 .flex-baby {
